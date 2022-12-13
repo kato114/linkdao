@@ -1,0 +1,55 @@
+.login {
+  background-color: #303131;
+  min-height: 100vh;
+  display: flex;
+}
+
+.login-left {
+  padding: 5%;
+  width: 45%;
+}
+
+.login-left-logo > img {
+  width: 170px;
+  max-width: 100%;
+}
+
+.login-left-banner {
+  width: 100%;
+  height: calc(100vh - 150px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-left-banner > img {
+  width: 100%;
+}
+
+.login-right {
+  width: 55%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.login-right form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 60px;
+}
+
+.login-right form input#email {
+  margin-top: 40px;
+}
+
+.login-right form input#password {
+  margin-bottom: 20px;
+}
+
+.login-right form button {
+  background-color: #00e3c9;
+}

@@ -1,0 +1,98 @@
+.states-banner {
+  display: flex;
+  gap: 10px;
+}
+
+.states-banner-item {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #303131;
+  border-radius: 10px;
+}
+
+.states-banner-item-logo {
+  padding-right: 10px;
+}
+
+.states-banner-item-logo img {
+  width: 20px;
+}
+
+.states-banner-item-content h5 {
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.states-action {
+  display: flex;
+  gap: 20px;
+  margin: 20px 0px;
+}
+
+.states-action-trade {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.states-action-trade input {
+  width: calc(100% - 120px);
+  background: none;
+  outline: none;
+  color: white;
+  border: 1px solid #303131;
+  box-shadow: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.states-action-trade button {
+  width: 100px;
+  color: white;
+  background-color: #058c7d;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.states-action-trade img {
+  width: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.states-history input {
+  width: calc(100% - 42px);
+  margin: 0px;
+  color: white;
+  background: none;
+  border: 1px solid #303131;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-image: url(../../../../assets/search.png);
+  background-position: 15px center;
+  background-size: 15px 15px;
+  background-repeat: no-repeat;
+  text-indent: 20px;
+}
+
+.states-history table {
+  width: 100%;
+  border: 1px solid #303131;
+  padding: 0px;
+  border-spacing: 0px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.states-history thead {
+  background: #303131;
+}
+
+.states-history td {
+  padding: 15px 10px;
+  font-size: 12px;
+}
